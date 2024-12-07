@@ -1,0 +1,113 @@
+@media only screen and (min-width: 1024px){
+    .lg-2{
+        width: calc(100%/16*2);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .lg-3{
+        width: calc(100%/16*3);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .lg-4{
+        width: calc(100%/16*4);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .lg-6{
+        width: calc(100%/16*6);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .lg-8{
+        width: calc(100%/16*8);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .lg-16{
+        width: calc(100%/16*16);
+        padding: 0 10px;
+        box-sizing: border-box;
+}
+    .row{
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .sm-16{
+        width: calc (100%/16*16)
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.border{
+    border: solid 1px black;
+    text-align: center;
+}
+div{
+    margin: 5px;
+}
+.aside{
+    max-height: 100px;
+    background-color: white;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -10px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: yellow;
+}
+.header{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -10px;
+    background-color: orange;
+}
+.space{
+    background-color: orange;
+    color: orange;
+}
+.section{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -10px;
+    background-color: violet;
+    margin-bottom: -10px;
+    color: violet;
+}
+.section1{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -10px;
+    background-color: #c4a484;
+    margin-top: 0px;
+    color: #c4a484;
+}
+.section2{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -10px;
+    background-color: #4400ff;
+    margin-top: 0px;
+    color: #4400ff;
+}
+.pink{
+    background-color: rgb(255, 0, 43);
+    color: rgb(255, 0, 43);
+}
+.green{
+    background-color: green;
+    color: green;
+}
